@@ -9,7 +9,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 import os
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCd_Y-lfliMrxFwdlavzbFP_f-1MpUWMXK8'
+os.environ['GOOGLE_API_KEY'] = ' '
 
 
 def extract_pdf_text(pdf_docs):
